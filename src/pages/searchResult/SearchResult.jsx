@@ -4,8 +4,8 @@ import ContentWrapper from "../../components/contentWrapper/ContentWrapper";
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { fetchDataFromApi } from "../../utils/api";
-import Spinner from "../../components/spinner/Spinner.jsx";
-import MovieCard from "../../components/movieCard/Moviecard.jsx";
+import Spinner from "../../components/spinner/Spinner";
+import MovieCard from "../../components/movieCard/Moviecard";
 
 const SearchResult = () => {
   const [data, setData] = useState(null);
