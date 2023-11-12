@@ -9,7 +9,7 @@ const headers = {
 
 export const fetchDataFromApi = async (url, params) => {
   try {
-    const { data } = await axios.get(BASE_URL + url, {
+    const { data } = await axios.get(BASE_URL + url + "?api_key=8873702b13f43c2a49664ab3be214d6f", {
       headers,
       params,
     });
